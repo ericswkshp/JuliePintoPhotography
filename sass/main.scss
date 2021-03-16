@@ -12,16 +12,17 @@ body {
 }
 
 .logo-box {
-  height: 10rem;
+  position: absolute;
+  width: 100%;
   text-align: center;
-  margin-bottom: 3rem;
-  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  // background-color: rgba($color: #ffffff, $alpha: 0.8);
+  z-index: 1000;
 }
 
 .logo-main {
-  width: 20rem;
+  width: 15rem;
 }
 
 .d-block {
-  width: fit-content;
+  height: fit-content;
 }
