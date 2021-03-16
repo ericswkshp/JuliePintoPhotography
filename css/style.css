@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(/img/DSC0609jp.jpg);
+
+  background-position-x: -4rem;
+
+  background-repeat: no-repeat;
+  font-size: 1.8rem;
+}
+
+.logo-box {
+  height: 50px;
+  text-align: center;
+}
+
+.logo-main {
+  width: 30rem;
+}
