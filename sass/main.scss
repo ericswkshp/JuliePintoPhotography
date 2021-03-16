@@ -9,19 +9,19 @@ html {
 }
 
 body {
-  background-image: url(../img/DSC0609jp.jpg);
-
-  background-position-x: -4rem;
-
-  background-repeat: no-repeat;
-  font-size: 1.8rem;
 }
 
 .logo-box {
-  height: 50px;
+  height: 10rem;
   text-align: center;
+  margin-bottom: 3rem;
+  background-color: rgba($color: #ffffff, $alpha: 0.5);
 }
 
 .logo-main {
-  width: 30rem;
+  width: 20rem;
+}
+
+.d-block {
+  width: fit-content;
 }
