@@ -10,10 +10,14 @@ html {
   position: absolute;
   width: 100%;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
   z-index: 1000; }
 
 .logo-main {
   width: 15rem; }
 
-.d-block {
-  height: fit-content; }
+.carousel-inner {
+  text-align: center; }
+
+.carousel-images {
+  height: 100vh; }

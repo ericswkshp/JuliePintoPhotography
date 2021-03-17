@@ -15,7 +15,7 @@ body {
   position: absolute;
   width: 100%;
   text-align: center;
-  // background-color: rgba($color: #ffffff, $alpha: 0.8);
+  background-color: rgba($color: #ffffff, $alpha: 0.5);
   z-index: 1000;
 }
 
@@ -23,6 +23,10 @@ body {
   width: 15rem;
 }
 
-.d-block {
-  height: fit-content;
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-images {
+  height: 100vh;
 }
