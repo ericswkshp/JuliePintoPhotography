@@ -1,0 +1,19 @@
+.logo-box {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  z-index: 1000;
+}
+
+.logo-main {
+  width: 15rem;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-images {
+  height: 100vh;
+}
