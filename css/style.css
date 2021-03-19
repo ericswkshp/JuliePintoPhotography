@@ -65,6 +65,24 @@ ul li a:hover {
   .active {
     display: block; } }
 
+.contact-btn {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  width: 60%;
+  padding: 0.5rem;
+  border: 3px solid #68a0fb;
+  color: #68a0fb;
+  background-color: transparent;
+  margin: 3rem 0;
+  transition: all 0.2s ease-in; }
+  .contact-btn:hover {
+    border: solid 3px #68a0fb;
+    color: white;
+    background-color: #68a0fb; }
+
+.contact-btn:active {
+  background-color: silver; }
+
 .logo-box {
   position: absolute;
   width: 100%;
