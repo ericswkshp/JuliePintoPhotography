@@ -22,11 +22,17 @@ ul li {
   transition: all 0.3s ease-in-out; }
 
 ul li:hover {
-  background: black; }
-
-ul li a {
+  background: silver;
   color: black;
   text-decoration: none; }
+
+ul li a {
+  color: #a8a8a8;
+  text-decoration: none; }
+
+ul li a:hover {
+  text-decoration: none;
+  color: black; }
 
 .toggle {
   width: 100%;
@@ -40,6 +46,7 @@ ul li a {
 
 @media (max-width: 768px) {
   .toggle {
+    width: 20%;
     position: absolute;
     display: block;
     z-index: 10000;
@@ -48,7 +55,9 @@ ul li a {
     top: 1rem; }
   ul {
     width: 100%;
-    display: none; }
+    display: none;
+    margin-top: 8rem;
+    margin-bottom: 3rem; }
   ul li {
     display: block;
     text-align: center;
