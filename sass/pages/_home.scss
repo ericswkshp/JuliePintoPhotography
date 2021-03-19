@@ -17,3 +17,14 @@
 .carousel-images {
   height: 100vh;
 }
+
+.intro {
+  font-size: 2rem;
+  padding: 5rem 2rem;
+  text-align: center;
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
