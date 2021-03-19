@@ -24,31 +24,16 @@
     />
   </head>
   <body>
-    <header class="header">
-      <a href="#" class="header__logo">Julie</a>
-      <div class="header__toggle">
-        <i class="bx bx-menu" id="header-toggle"></i>
-      </div>
-      <div class="nav__content bd-grid">
-        <a href="#" class="nav__perfil">
-          <div class="nav__img">
-            <img src="" alt="" />
-          </div>
-        </a>
-      </div>
-      <div class="nav__menu">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link active">Home</a>
-          </li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Works</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-        </ul>
-      </div>
-    </header>
-
+    <nav>
+      <div class="toggle"><i class="fas fa-bars menu"></i></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Investment</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <div class="logo-box">
       <img
         src="img/JPinto_logo.png"
@@ -116,6 +101,18 @@
     </div>
     <!-- END BOOTSTRAP CAROUSEL -->
     <!-- BOOTSTRAP JS  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/932b80e461.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
