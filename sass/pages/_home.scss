@@ -1,13 +1,14 @@
 .logo-box {
   position: absolute;
   width: 100%;
+  padding: 1rem 0;
   text-align: center;
   background-color: rgba($color: #ffffff, $alpha: 0.5);
   z-index: 1000;
 }
 
 .logo-main {
-  width: 15rem;
+  width: 20rem;
 }
 
 .carousel-inner {

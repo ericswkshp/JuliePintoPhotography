@@ -65,6 +65,12 @@ ul li a:hover {
   .active {
     display: block; } }
 
+.bio {
+  padding: 15rem 3rem;
+  text-align: center; }
+  .bio__paragraph {
+    font-size: 1.8rem; }
+
 .contact-btn {
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -86,12 +92,13 @@ ul li a:hover {
 .logo-box {
   position: absolute;
   width: 100%;
+  padding: 1rem 0;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
   z-index: 1000; }
 
 .logo-main {
-  width: 15rem; }
+  width: 20rem; }
 
 .carousel-inner {
   text-align: center; }
@@ -106,3 +113,9 @@ ul li a:hover {
   .intro__title {
     font-size: 2.5rem;
     margin-bottom: 3rem; }
+
+.investment {
+  padding: 15rem 3rem;
+  text-align: center; }
+  .investment__paragraph {
+    font-size: 1.8rem; }
