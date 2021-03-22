@@ -1,6 +1,10 @@
 .bio {
-  padding: 15rem 3rem;
+  position: relative;
+  margin-top: 20rem;
+  max-width: 600px;
   text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
   &__paragraph {
     font-size: 1.8rem;
   }

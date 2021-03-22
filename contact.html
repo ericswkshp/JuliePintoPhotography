@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Julie Pinto Photography</title>
+
+    <!-- BOOTSTRAP CSS MUST BE FIRST!  -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <!-- ****** -->
+
     <!-- MAIN CSS  -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- ***** -->
+
     <!-- BOXICON CSS  -->
     <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
@@ -29,7 +31,7 @@
         <li><a href="bio.html">Bio</a></li>
         <li><a href="investment.html">Investment</a></li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="logo-box">
@@ -39,23 +41,48 @@
         class="logo-main"
       />
     </div>
-    <div class="bio">
-      <p class="bio__paragraph">
-        For as long as I can remember, at every event, I was the person that
-        wanted to capture all the fun and silly moments with my friends and
-        family. Everyone counted on me to share the memories that everyone
-        forgot. I took that passion with me to college where I majored in Studio
-        Art with a specialization in Photography and received my bachelor’s
-        degree. <br />
-        <br />
-        Be ready to laugh and have fun if you choose me as your photographer!
-        Best Wishes, Warmest Regards.
-      </p>
-      <div class="contact2">
-        <a href="contact.html"><button class="contact-btn">Contact</button></a>
+    <div class="wrapper">
+      <div class="title">
+        Contact Me
       </div>
+      <div class="form">
+         <div class="inputfield">
+            <label>First Name</label>
+            <input type="text" class="input">
+         </div>  
+          <div class="inputfield">
+            <label>Last Name</label>
+            <input type="text" class="input">
+         </div>  
+         
+          
+          <div class="inputfield">
+            <label>Email Address</label>
+            <input type="text" class="input">
+         </div> 
+        <div class="inputfield">
+            <label>Phone Number</label>
+            <input type="text" class="input">
+         </div> 
+         
+        <div class="inputfield">
+            <label>Postal Code</label>
+            <input type="text" class="input">
+         </div> 
+         
+         <div class="inputfield">
+           <label>Message</label>
+           <textarea class="input"></textarea>
+         </div>
+        <div class="inputfield">
+          <input type="submit" value="Submit" class="btn">
+        </div>
+      </div>
+  </div>
+    
+     
     </div>
-
+    <!-- BOOTSTRAP JS  -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {

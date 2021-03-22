@@ -20,8 +20,11 @@
 }
 
 .intro {
+  max-width: 600px;
+  margin-left: 50%;
+  transform: translateX(-50%);
   font-size: 2rem;
-  padding: 5rem 2rem;
+  padding: 5rem 0;
   text-align: center;
 
   &__title {
