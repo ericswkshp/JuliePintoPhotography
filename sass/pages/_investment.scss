@@ -1,10 +1,22 @@
 .investment {
   max-width: 600px;
   text-align: center;
-  margin-top: 20rem;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  margin: 4rem auto;
+
   &__paragraph {
     font-size: 1.8rem;
+    margin-bottom: 5rem;
   }
+}
+
+.links {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.social-icons {
+  font-size: 4rem;
+  color: $color-primary;
+  margin: 0 2rem 5rem;
 }

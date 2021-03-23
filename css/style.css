@@ -10,9 +10,9 @@ html {
   max-width: 500px;
   width: 100%;
   background: #68a0fb;
-  margin-top: 20rem;
   margin-left: 50%;
   transform: translateX(-50%);
+  margin-top: 4rem;
   margin-bottom: 3rem;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.125);
@@ -38,7 +38,7 @@ html {
   width: 200px;
   color: #ffffff;
   margin-right: 10px;
-  font-size: 14px; }
+  font-size: 1.6rem; }
 
 .wrapper .form .inputfield .input,
 .wrapper .form .inputfield .textarea {
@@ -196,13 +196,14 @@ ul li a:hover {
 
 .bio {
   position: relative;
-  margin-top: 20rem;
   max-width: 600px;
+  width: 90%;
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%); }
   .bio__paragraph {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin: 4rem auto; }
 
 .contact-btn {
   font-size: 2.5rem;
@@ -223,7 +224,6 @@ ul li a:hover {
   background-color: silver; }
 
 .logo-box {
-  position: absolute;
   width: 100%;
   padding: 1rem 0;
   text-align: center;
@@ -241,6 +241,7 @@ ul li a:hover {
 
 .intro {
   max-width: 600px;
+  width: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
   font-size: 2rem;
@@ -253,8 +254,17 @@ ul li a:hover {
 .investment {
   max-width: 600px;
   text-align: center;
-  margin-top: 20rem;
-  margin-left: 50%;
-  transform: translateX(-50%); }
+  margin: 4rem auto; }
   .investment__paragraph {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin-bottom: 5rem; }
+
+.links {
+  width: 100%;
+  text-align: center;
+  padding: 2rem; }
+
+.social-icons {
+  font-size: 4rem;
+  color: #68a0fb;
+  margin: 0 2rem 5rem; }

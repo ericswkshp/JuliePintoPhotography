@@ -1,5 +1,5 @@
 .logo-box {
-  position: absolute;
+  // position: absolute;
   width: 100%;
   padding: 1rem 0;
   text-align: center;
@@ -21,6 +21,7 @@
 
 .intro {
   max-width: 600px;
+  width: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
   font-size: 2rem;

@@ -1,11 +1,13 @@
 .bio {
   position: relative;
-  margin-top: 20rem;
+
   max-width: 600px;
+  width: 90%;
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);
   &__paragraph {
     font-size: 1.8rem;
+    margin: 4rem auto;
   }
 }

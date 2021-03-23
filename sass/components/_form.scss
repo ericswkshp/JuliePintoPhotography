@@ -3,13 +3,13 @@
   max-width: 500px;
   width: 100%;
   background: $color-primary;
-  margin-top: 20rem;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 3rem;
+  margin-top: 4rem;
 
+  margin-bottom: 3rem;
   border-radius: 5px;
-  // transform: translateX(-50%);
+
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.125);
   padding: 3rem;
 }
@@ -37,7 +37,7 @@
   width: 200px;
   color: $color-secondary;
   margin-right: 10px;
-  font-size: 14px;
+  font-size: 1.6rem;
 }
 
 .wrapper .form .inputfield .input,
