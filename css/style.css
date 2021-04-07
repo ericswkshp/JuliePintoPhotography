@@ -1,7 +1,7 @@
 @font-face {
   font-family: "charlotte";
   src: url(/fonts/charlotte-uloel-design/charlotte.otf);
-  src: local("charlotte"), format("opentype"); }
+  src: url(/fonts/charlotte-uloel-design/charlotte.ttf) format("truetype"); }
 
 * {
   padding: 0;
@@ -214,7 +214,7 @@ ul li a:hover {
     font-family: "charlotte"; }
   .bio__ending {
     font-size: 1.5rem;
-    font-family: "charlotte"; }
+    font-family: "charlotte", "Mrs Saint Delafield"; }
 
 .contact-btn {
   font-size: 2.5rem;
