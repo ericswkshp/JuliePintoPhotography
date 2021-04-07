@@ -31,8 +31,8 @@ html {
 }
 
 .wrapper .title {
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-family: "Mrs Saint Delafield", cursive;
   margin-bottom: 25px;
   color: #ffffff;
   text-transform: uppercase;
@@ -269,13 +269,15 @@ ul li a:hover {
 }
 
 .bio__starting {
-  font-size: 2.2rem;
-  font-family: "charlotte";
+  font-size: 6rem;
+  font-family: "Mrs Saint Delafield";
+  line-height: 5rem;
+  margin-bottom: 3rem;
 }
 
 .bio__ending {
-  font-size: 1.5rem;
-  font-family: "charlotte", "Mrs Saint Delafield";
+  font-size: 3rem;
+  font-family: "Mrs Saint Delafield", cursive;
 }
 
 .contact-btn {
@@ -318,7 +320,7 @@ ul li a:hover {
 }
 
 .carousel-images {
-  height: 100vh;
+  width: 100vw;
 }
 
 .intro {
@@ -333,8 +335,8 @@ ul li a:hover {
 }
 
 .intro__title {
-  font-family: "charlotte";
-  font-size: 2.5rem;
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 6rem;
   margin-bottom: 3rem;
 }
 

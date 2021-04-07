@@ -16,7 +16,7 @@
 }
 
 .carousel-images {
-  height: 100vh;
+  width: 100vw;
 }
 
 .intro {
@@ -29,12 +29,15 @@
   text-align: center;
 
   &__title {
-    font-family: "charlotte";
-    font-size: 2.5rem;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 6rem;
     margin-bottom: 3rem;
   }
 
   &__paragraph {
     margin-bottom: 6rem;
   }
+}
+
+.carousel-item-4 {
 }
