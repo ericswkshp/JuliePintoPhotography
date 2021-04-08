@@ -208,7 +208,7 @@ ul li a:hover {
   transform: translateX(-50%); }
   .bio__paragraph {
     font-size: 1.8rem;
-    margin: 4rem auto; }
+    margin: 100rem auto; }
   .bio__starting {
     font-size: 6rem;
     font-family: "Mrs Saint Delafield";
@@ -247,10 +247,15 @@ ul li a:hover {
   width: 20rem; }
 
 .carousel-inner {
-  text-align: center; }
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
 
 .carousel-images {
-  width: 100vw; }
+  width: 100%;
+  max-width: 600px; }
 
 .intro {
   max-width: 600px;
@@ -266,6 +271,24 @@ ul li a:hover {
     margin-bottom: 3rem; }
   .intro__paragraph {
     margin-bottom: 6rem; }
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .carousel-control-next {
+    transform: translateX(-50%); }
+  .carousel-control-prev {
+    transform: translateX(50%); } }
+
+@media (min-width: 801px) and (max-width: 1100px) {
+  .carousel-control-next {
+    transform: translateX(-120%); }
+  .carousel-control-prev {
+    transform: translateX(120%); } }
+
+@media (min-width: 1100px) {
+  .carousel-control-next {
+    transform: translateX(-185%); }
+  .carousel-control-prev {
+    transform: translateX(185%); } }
 
 .investment {
   max-width: 600px;
