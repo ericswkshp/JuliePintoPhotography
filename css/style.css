@@ -290,6 +290,10 @@ ul li a:hover {
   .carousel-control-prev {
     transform: translateX(185%); } }
 
+ul li {
+  font-family: "Mrs Saint Delafield";
+  font-size: 3.5rem; }
+
 .investment {
   max-width: 600px;
   text-align: center;

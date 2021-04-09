@@ -383,6 +383,11 @@ ul li a:hover {
   }
 }
 
+ul li {
+  font-family: "Mrs Saint Delafield";
+  font-size: 3.5rem;
+}
+
 .investment {
   max-width: 600px;
   text-align: center;
