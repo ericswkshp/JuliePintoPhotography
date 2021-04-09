@@ -251,7 +251,7 @@ ul li a:hover {
   text-align: center;
   max-width: 600px;
   border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
 
 .carousel-images {
   width: 100%;
@@ -307,4 +307,8 @@ ul li a:hover {
 .social-icons {
   font-size: 4rem;
   color: #68a0fb;
-  margin: 0 2rem 5rem; }
+  margin: 0 2rem 5rem;
+  transition: all 0.2s; }
+  .social-icons:hover {
+    cursor: pointer;
+    transform: translateY(-3px); }

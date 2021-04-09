@@ -20,4 +20,11 @@
   font-size: 4rem;
   color: $color-primary;
   margin: 0 2rem 5rem;
+
+  transition: all 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+  }
 }
