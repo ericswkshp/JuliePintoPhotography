@@ -44,6 +44,10 @@
     margin-bottom: 6rem;
   }
 }
+ul li {
+  font-family: "Mrs Saint Delafield";
+  font-size: 3.5rem;
+}
 
 @media (min-width: 600px) and (max-width: 800px) {
   .carousel-control-next {
@@ -73,9 +77,4 @@
   .carousel-control-prev {
     transform: translateX(185%);
   }
-}
-
-ul li {
-  font-family: "Mrs Saint Delafield";
-  font-size: 3.5rem;
 }

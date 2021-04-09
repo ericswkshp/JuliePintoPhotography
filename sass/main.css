@@ -350,6 +350,11 @@ ul li a:hover {
   margin-bottom: 6rem;
 }
 
+ul li {
+  font-family: "Mrs Saint Delafield";
+  font-size: 3.5rem;
+}
+
 @media (min-width: 600px) and (max-width: 800px) {
   .carousel-control-next {
     -webkit-transform: translateX(-50%);
@@ -381,11 +386,6 @@ ul li a:hover {
     -webkit-transform: translateX(185%);
             transform: translateX(185%);
   }
-}
-
-ul li {
-  font-family: "Mrs Saint Delafield";
-  font-size: 3.5rem;
 }
 
 .investment {
